@@ -11,10 +11,25 @@
 </head>
 
 <body>
+	<main>
+		<form action="javascript:submitMyForm()">
+			<div class="item">
+				<label for="no1">A number</label><input type="number" id="no1" value="0">
+			</div>
+			<div class="item">
+				<label for="no2">Another number</label><input type="number" id="no2" value="0">
+			</div>
+			<div class="item">
+				<button type="submit">Submit</button> <button onclick="clearTV();return false">Clear TV</button>
+			</div>
+		</form>
+		<div id="output"></div>
+	</main>
 </body>
 <!--
     HTML by Dan Høegh
     UCN MMD 2018
 -->
+
 
 </html>
