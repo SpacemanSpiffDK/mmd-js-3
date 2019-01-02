@@ -15,6 +15,14 @@ body {
 	background-color: #1dd1a1;
 	}
 
+main {
+	display: flex;
+}
+
+form {
+	width: 50%;
+}
+
 input,
 select,
 textarea {
@@ -73,12 +81,19 @@ button {
 	background-color: #0abde3;
 	box-shadow: 5px 5px 3px 0 rgba(0,0,0,.3);
 	border: none;
-	padding: 20px 70px;
+	font-size: 2vw;
+	padding: 20px 0;
 	color: #fff;
 	cursor: pointer;
 	transition: all .1s linear;
-	margin-left: 200px;
 	display: inline-block;
+    width: 45%;
+    margin-top: 3%;
+    margin-right: 2%;
+}
+
+.btnClear {
+	background-color: #808e9b;
 }
 
 button:active {
@@ -91,10 +106,6 @@ button[disabled] {
 	cursor: initial;
 }
 
-button + button {
-	margin-left: 20px;
-}
-
 form .item {
 	padding: 10px 0;
 }
@@ -104,13 +115,13 @@ form .item {
     border-radius: 20px;
     height: 450px;
     padding: 10px 10px 10px 20px;
-    width: 600px;
+    width: 50%;
     background: repeating-linear-gradient(transparent, transparent 1px, black 3px, black 3px);
     background-color: #212321;
 }
 
 form + #outputWrapper {
-	margin-top: 20px;
+	margin-left: 20px;
 }
 
 #output {

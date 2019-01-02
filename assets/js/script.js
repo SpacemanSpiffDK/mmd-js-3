@@ -14,9 +14,9 @@ function clearTV() {
 }
 
 // what happens when we write a new function with the same name?
-/*function clearTV() {
+function clearTV() {
 	alert('This doesn\'t work!');
-}*/
+}
 
 
 function submitMyForm(){
@@ -24,17 +24,17 @@ function submitMyForm(){
 	var n2 = document.querySelector('#no2').value;
 
 	
-	// onTV('n1');		// Ups! this returns a text string with the value "no1"
+	onTV('n1');		// Ups! this returns a text string with the value "no1"
 	onTV(n1);		// This is the shizzle! 
-	// onTV(n1 + n2); 	// nope, nope, nope 
+	onTV(n1 + n2); 	// nope, nope, nope 
 
-	// n1 = parseInt(n1);	// parse as integer (what is an integer?)
-	// n2 = parseInt(n2);
+	n1 = parseInt(n1);	// parse as integer (what is an integer?)
+	n2 = parseInt(n2);
 
-	// onTV(n1 + n2); 	
-	// onTV(n1 - n2);	
-	// onTV(n1 * n2);	
-	// onTV(n1 / n2);	
+	onTV(n1 + n2); 	
+	onTV(n1 - n2);	
+	onTV(n1 * n2);	
+	onTV(n1 / n2);	
 }
 
 function countUp(){
