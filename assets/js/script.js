@@ -14,9 +14,9 @@ function clearTV() {
 }
 
 // what happens when we write a new function with the same name?
-function clearTV() {
-	alert('This doesn\'t work!');
-}
+// function clearTV() {
+// 	alert('This doesn\'t work!');
+// }
 
 
 function submitMyForm(){
